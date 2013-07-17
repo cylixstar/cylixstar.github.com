@@ -1,1 +1,42 @@
-<h> It works! </h>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Advertisement</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <header>
+    <script type='text/javascript'>
+      var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+ var gads = document.createElement('script');
+ gads.async = true;
+ gads.type = 'text/javascript';
+ var useSSL = 'https:' == document.location.protocol;
+ gads.src = (useSSL ? 'https:' : 'http:') + 
+ '//www.googletagservices.com/tag/js/gpt.js';
+ var node = document.getElementsByTagName('script')[0];
+ node.parentNode.insertBefore(gads, node);
+ })();
+</script>
+
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+      googletag.defineSlot('/17828477/noogler_201307_cyl', [400, 200], 'div-gpt-ad-1373973925616-0').addService(googletag.pubads());
+      googletag.pubads().enableSingleRequest();
+      googletag.enableServices();
+      });
+    </script>       
+    </header>
+<!-- noogler_201307_cyl -->
+<div id='div-gpt-ad-1373973925616-0' style='width:400px; height:200px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1373973925616-0'); });
+</script>
+</div>
+    <footer>
+
+    </footer>
+  </body>
+</html>
